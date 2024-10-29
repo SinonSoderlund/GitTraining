@@ -10,6 +10,7 @@
             Console.WriteLine(new Bunnyficator(args, 12).ToString());
 
             Console.WriteLine("Second msg from mohammad's branch");
+            Console.WriteLine("a");
         }
     }
 }
