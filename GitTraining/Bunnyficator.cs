@@ -15,5 +15,11 @@ namespace GitTraining
             Name = o.GetType().ToString();
             Roundness = roundess;
         }
+
+        public override string ToString()
+        {
+
+            return $"{Name}, {Roundness}, {base.ToString()}";
+        }
     }
 }
