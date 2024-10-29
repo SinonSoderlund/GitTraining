@@ -11,4 +11,5 @@ namespace GitTraining
 	{
 		public string Name { get; set; }
 	}
+	
 }
